@@ -16,6 +16,9 @@
 		1C0EC8991C8DBEC9005000D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C0EC8971C8DBEC9005000D5 /* LaunchScreen.storyboard */; };
 		1C0EC8A41C8DBEC9005000D5 /* orderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0EC8A31C8DBEC9005000D5 /* orderTests.m */; };
 		1C0EC8AF1C8DBEC9005000D5 /* orderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0EC8AE1C8DBEC9005000D5 /* orderUITests.m */; };
+		1CAB2A771C8DCD0F0090B338 /* bateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAB2A761C8DCD0F0090B338 /* bateModel.m */; };
+		1CAB2A7A1C8DD5D20090B338 /* dateButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAB2A791C8DD5D20090B338 /* dateButton.m */; };
+		1CAB2A7C1C8DDAF30090B338 /* goodsData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CAB2A7B1C8DDAF30090B338 /* goodsData.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,11 @@
 		1C0EC8AA1C8DBEC9005000D5 /* orderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = orderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C0EC8AE1C8DBEC9005000D5 /* orderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = orderUITests.m; sourceTree = "<group>"; };
 		1C0EC8B01C8DBEC9005000D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CAB2A751C8DCD0F0090B338 /* bateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bateModel.h; sourceTree = "<group>"; };
+		1CAB2A761C8DCD0F0090B338 /* bateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bateModel.m; sourceTree = "<group>"; };
+		1CAB2A781C8DD5D20090B338 /* dateButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dateButton.h; sourceTree = "<group>"; };
+		1CAB2A791C8DD5D20090B338 /* dateButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dateButton.m; sourceTree = "<group>"; };
+		1CAB2A7B1C8DDAF30090B338 /* goodsData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = goodsData.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,9 +115,14 @@
 				1C0EC88A1C8DBEC9005000D5 /* AppDelegate.m */,
 				1C0EC88C1C8DBEC9005000D5 /* ViewController.h */,
 				1C0EC88D1C8DBEC9005000D5 /* ViewController.m */,
+				1CAB2A781C8DD5D20090B338 /* dateButton.h */,
+				1CAB2A791C8DD5D20090B338 /* dateButton.m */,
+				1CAB2A751C8DCD0F0090B338 /* bateModel.h */,
+				1CAB2A761C8DCD0F0090B338 /* bateModel.m */,
 				1C0EC88F1C8DBEC9005000D5 /* Main.storyboard */,
 				1C0EC8951C8DBEC9005000D5 /* Assets.xcassets */,
 				1C0EC8971C8DBEC9005000D5 /* LaunchScreen.storyboard */,
+				1CAB2A7B1C8DDAF30090B338 /* goodsData.plist */,
 				1C0EC89A1C8DBEC9005000D5 /* Info.plist */,
 				1C0EC8921C8DBEC9005000D5 /* order.xcdatamodeld */,
 				1C0EC8861C8DBEC9005000D5 /* Supporting Files */,
@@ -249,6 +262,7 @@
 				1C0EC8991C8DBEC9005000D5 /* LaunchScreen.storyboard in Resources */,
 				1C0EC8961C8DBEC9005000D5 /* Assets.xcassets in Resources */,
 				1C0EC8911C8DBEC9005000D5 /* Main.storyboard in Resources */,
+				1CAB2A7C1C8DDAF30090B338 /* goodsData.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +287,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CAB2A771C8DCD0F0090B338 /* bateModel.m in Sources */,
 				1C0EC88E1C8DBEC9005000D5 /* ViewController.m in Sources */,
 				1C0EC88B1C8DBEC9005000D5 /* AppDelegate.m in Sources */,
+				1CAB2A7A1C8DD5D20090B338 /* dateButton.m in Sources */,
 				1C0EC8941C8DBEC9005000D5 /* order.xcdatamodeld in Sources */,
 				1C0EC8881C8DBEC9005000D5 /* main.m in Sources */,
 			);
@@ -500,6 +516,7 @@
 				1C0EC8B51C8DBEC9005000D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C0EC8B61C8DBEC9005000D5 /* Build configuration list for PBXNativeTarget "orderTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +525,7 @@
 				1C0EC8B81C8DBEC9005000D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C0EC8B91C8DBEC9005000D5 /* Build configuration list for PBXNativeTarget "orderUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +534,7 @@
 				1C0EC8BB1C8DBEC9005000D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
